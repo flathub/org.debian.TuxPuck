@@ -41,6 +41,10 @@
                 },
                 {
                     "type": "patch",
+                    "path": "FTBFS-with-fread.patch"
+                },
+                {
+                    "type": "patch",
                     "path": "tuxpuck-prefix.patch"
                 },
                 {
