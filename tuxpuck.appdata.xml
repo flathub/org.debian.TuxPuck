@@ -4,6 +4,7 @@
   <id type="desktop">tuxpuck.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
+  <name>Tuxpuck</name>
   <summary>3D Shufflepuck Pong Game</summary>
   <description>
     <p>
