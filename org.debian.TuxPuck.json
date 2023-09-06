@@ -37,19 +37,23 @@
                 },
                 {
                     "type": "patch",
-                    "path": "tuxpuck-libpng15.patch"
+                    "path": "patches/debian/clang-FTBS.patch"
                 },
                 {
                     "type": "patch",
-                    "path": "FTBFS-with-fread.patch"
+                    "path": "patches/debian/tuxpuck-libpng15.patch"
                 },
                 {
                     "type": "patch",
-                    "path": "tuxpuck-prefix.patch"
+                    "path": "patches/debian/Makefile.patch"
                 },
                 {
                     "type": "patch",
-                    "path": "tuxpuck-Use-XDG_CONFIG_HOME-when-set.patch"
+                    "path": "patches/debian/FTBFS-with-fread.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/flatpak/tuxpuck-Use-XDG_CONFIG_HOME-when-set.patch"
                 },
                 {
                     "type": "file",
@@ -73,7 +77,6 @@
                 "install -Dm644 tuxpuck.desktop /app/share/applications/tuxpuck.desktop",
                 "install -Dm644 tuxpuck.png /app/share/icons/hicolor/64x64/apps/tuxpuck.png",
                 "install -Dm644 tuxpuck-128.png /app/share/icons/hicolor/128x128/apps/tuxpuck.png"
-
             ]
         }
     ]
