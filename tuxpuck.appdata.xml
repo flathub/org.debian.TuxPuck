@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Cosimo Cecchi <cosimoc@gnome.org> -->
-<application>
-  <id type="desktop">tuxpuck.desktop</id>
+<component type="desktop-application">
+  <id>org.debian.TuxPuck</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
   <name>Tuxpuck</name>
   <summary>3D Shufflepuck Pong Game</summary>
+  <developer id="org.debian">
+    <name>Debian Games Team</name>
+  </developer>
   <description>
     <p>
       TuxPuck is an air hockey game and clone of the Amiga/Atari ST game Shufflepuck Café.
@@ -14,40 +17,20 @@
     </p>
   </description>
   <url type="homepage">https://wiki.debian.org/Games/TuxPuck</url>
+  <url type="vcs-browser">https://salsa.debian.org/games-team/tuxpuck.git</url>
+  <launchable type="desktop-id">org.debian.TuxPuck.desktop</launchable>
+  <provides>
+    <id>tuxpack.desktop</id>
+    <id>org.debian.TuxPuck.desktop</id>
+  </provides>
   <screenshots>
-    <screenshot type="default">https://screenshots.debian.net/shrine/screenshot/14774/simage/large-e4bc2b527ce65cf7126498a7d01d3d98.png</screenshot>
+    <screenshot type="default">
+      <image>https://screenshots.debian.net/shrine/screenshot/14774/simage/large-e4bc2b527ce65cf7126498a7d01d3d98.png</image>
+    </screenshot>
   </screenshots>
   <releases>
-		<release version="0.8.2" date="2011-11-08"/>
+    <release version="0.8.2" date="2011-11-08"/>
   </releases>
-  <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="violence-fantasy">none</content_attribute>
-    <content_attribute id="violence-realistic">none</content_attribute>
-    <content_attribute id="violence-bloodshed">none</content_attribute>
-    <content_attribute id="violence-sexual">none</content_attribute>
-    <content_attribute id="violence-desecration">none</content_attribute>
-    <content_attribute id="violence-slavery">none</content_attribute>
-    <content_attribute id="violence-worship">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="drugs-narcotics">none</content_attribute>
-    <content_attribute id="drugs-tobacco">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="sex-themes">none</content_attribute>
-    <content_attribute id="sex-homosexuality">none</content_attribute>
-    <content_attribute id="sex-prostitution">none</content_attribute>
-    <content_attribute id="sex-adultery">none</content_attribute>
-    <content_attribute id="sex-appearance">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="language-humor">none</content_attribute>
-    <content_attribute id="language-discrimination">none</content_attribute>
-    <content_attribute id="social-chat">none</content_attribute>
-    <content_attribute id="social-info">none</content_attribute>
-    <content_attribute id="social-audio">none</content_attribute>
-    <content_attribute id="social-location">none</content_attribute>
-    <content_attribute id="social-contacts">none</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
-  </content_rating>
-  <updatecontact>apo@debian.org</updatecontact>
-</application>
+  <content_rating type="oars-1.1" />
+  <update_contact>pkg-games-devel@lists.alioth.debian.org</update_contact>
+</component>
